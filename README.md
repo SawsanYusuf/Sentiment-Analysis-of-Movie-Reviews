@@ -13,3 +13,5 @@ IMDB dataset having 50K movie reviews for natural language processing or Text an
 * id — Unique ID of each review
 * review — Text of the review
 * label — Sentiment of the review; 1 for positive reviews and 0 for negative reviews
+
+## Inspect and explore data
