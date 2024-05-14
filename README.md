@@ -15,3 +15,7 @@ IMDB dataset having 50K movie reviews for natural language processing or Text an
 * label — Sentiment of the review; 1 for positive reviews and 0 for negative reviews
 
 ## Inspect and explore data
+We didn't get any problems with data types. And we didn't have any null values. we just had some duplicates and we dropped them. the the relative frequencies of the classes in the dataset are close, which means that the data is balanced.
+
+![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/class%20balance.png)
+
