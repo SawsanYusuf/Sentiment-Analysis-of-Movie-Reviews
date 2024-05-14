@@ -1,5 +1,7 @@
 # Sentiment Analysis of Movie Reviews
 
+![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/istockphoto-1196964881-1024x1024.jpg)
+
 ## Objective:
 The goal is to predict the sentiment for a given review 
 from a user with the help of either classification or deep learning algorithms.
