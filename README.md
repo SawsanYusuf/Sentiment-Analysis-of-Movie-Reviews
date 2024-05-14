@@ -19,3 +19,14 @@ We encountered no issues with data types and found no null values. We did, howev
 
 ![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/class%20balance.png)
 
+
+## Data cleaning 
+For any NLP problem it is essential the raw data is cleaned and processed in the desired format before fed into the model. Here we have converted the data into lower case and removed punctuations using string library which proved faster in than what I had seen in the reference material. Additionally the stopwords (such as “the”, “a”, “an”, “in”) were removed using the NLTK library as these words don't matter when indexing.
+
+Another processes we applied: 
+* Remove HTML tags
+* Remove Urls
+* Remove numbers 
+* Remove symbols
+* Remove emojis
+* Handle chat words
