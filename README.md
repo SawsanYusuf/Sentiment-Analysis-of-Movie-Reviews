@@ -55,4 +55,21 @@ We used different algorithms and trained them with different data and transforme
 
 ![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/ml%20models.png)
 
+### LSTM Models
+
+First, we processing the data:
+1. Tokenization: We used the Tokenizer class from Keras, which also takes care of converting the words to lower case and removing punctuation.
+2. Sequence conversion: Next, we converted the tokens into sequences of integers. Each unique word was assigned a unique integer.
+3. Sequence padding: Because LSTM networks require input data with the same length, we used padding to ensure all sequences had the same length.
+
+After preprocessing our data, we moved on to constructing the LSTM network. The model was created using Keras’ Sequential API, indicating that our model would be built layer by layer in a sequential manner.
+The models basic structure: 
+1. Embedding layer: This layer transformed our integer sequences (representing words) into dense vectors of fixed size. 
+2. LSTM layers: Next, we added an LSTM layer. LSTM layers are effective in processing sequences (like text), as they can capture the temporal dependencies between elements in the sequence.
+3. Dense layers: After the LSTM layers, we included a dense (fully connected) layer. We used the ‘sigmoid’ activation function. We also added dropout to these layers to avoid overfitting.
+
+We then trained our model on our preprocessed reviews and sentiments, using a batch size of 264 and running for 25 epochs. We also included early stopping in our training to prevent overfitting.
+
+
+
 
