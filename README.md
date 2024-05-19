@@ -73,4 +73,7 @@ We then trained our model on our preprocessed reviews and sentiments, using a ba
 ![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/lstm.png)
 
 
+## Further Work 
+Using an LSTM-based neural network, we achieved impressive results in predicting our target. Future work might involve exploring different neural network architectures, using pre-trained embeddings, or applying this model to other NLP tasks.
+
 
