@@ -68,8 +68,9 @@ The models basic structure:
 2. LSTM layers: Next, we added an LSTM layer. LSTM layers are effective in processing sequences (like text), as they can capture the temporal dependencies between elements in the sequence.
 3. Dense layers: After the LSTM layers, we included a dense (fully connected) layer. We used the ‘sigmoid’ activation function. We also added dropout to these layers to avoid overfitting.
 
-We then trained our model on our preprocessed reviews and sentiments, using a batch size of 264 and running for 25 epochs. We also included early stopping in our training to prevent overfitting.
+We then trained our model on our preprocessed reviews and sentiments, using a batch size of 264 and running for 10 epochs. We also included early stopping in our training to prevent overfitting.
 
+![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/lstm.png)
 
 
 
