@@ -35,6 +35,8 @@ Another processes we applied:
 * Stemming / Lemmatization
 
 ## Models
+
+### ML Algorithms 
 We Created a pipeline named model that contains a transformer to represent text data into vectors and a predictor.
 
 We used different algorithms and trained them with different data and transformers. Then, we evaluate them using the accuracy and F1-Score. 
@@ -51,5 +53,6 @@ We used different algorithms and trained them with different data and transforme
 * K-Nearest Neighbor 
 * XGBOOST
 
+![](https://github.com/SawsanYusuf/Sentiment-Analysis-of-Movie-Reviews/blob/main/Images/ml%20models.png)
 
 
