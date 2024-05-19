@@ -32,3 +32,15 @@ Another processes we applied:
 * Remove symbols
 * Remove emojis
 * Handle chat words
+* Stemming / Lemmatization
+
+## Models
+We Created a pipeline named model that contains a transformer to represent text data into vectors and a predictor.
+
+We used different algorithms and trained them with different data and transformers. Then, we evaluate them using the accuracy and F1-Score. 
+
+Transformers: 
+* Bag of words
+* TF-IDF 
+Predators:
+
